@@ -42,7 +42,7 @@ rows = table.find_elements(by=By.TAG_NAME, value='tr')'''
 st.code(code, language='python')
 
 # Read data
-data = pd.read_csv(r'F:\Study\X-DATA\KHÓA 3\Final Test\prices.csv', index_col=0)
+data = pd.read_csv(r'https://raw.githubusercontent.com/MinhTrong92/Final-Test/main/FINAL/prices.csv', index_col=0)
 
 st.write("**Bảng dữ liệu thô ban đầu**")
 
